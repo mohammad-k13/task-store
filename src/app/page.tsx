@@ -37,10 +37,10 @@ const Home = () => {
 		<section className="w-full h-fit flex flex-col items-center justify-between gap-10 mt-24">
 			<main>
 				{" "}
-				<div className="h-fit flex flex-col justify-center items-start px-4 gap-6 max-md:items-center">
-					<div className="text-4xl md:text-5xl lg:text-7xl  mx-auto font-normal text-black/90 dark:text-neutral-300 max-md:text-center">
+				<div className="h-fit flex flex-col justify-center items-start px-4 gap-6 ">
+					<div className="text-5xl lg:text-7xl  mx-auto font-normal text-black/90 dark:text-neutral-300">
 						Build
-						<FlipWords words={words} /> <br />
+						<FlipWords words={words} className="bg-blue-500 rounded-md p-1 px-2 text-neutral-100" /> <br />
 						websites with Aceternity UI
 					</div>
 					<Button className="bg-blue-600 text-neutral-100 hover:bg-blue-400 active:scale-95 transition-all">
