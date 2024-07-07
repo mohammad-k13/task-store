@@ -96,7 +96,6 @@ export const EditProductAction = async (payload: EditProductMutationProps) => {
 		return;
 	}
 
-	
 	try {
 		const product = await GetSingleProduct({ prodId: payload.productId, userId: payload.userId });
 		const newProduct = {
@@ -115,6 +114,5 @@ export const EditProductAction = async (payload: EditProductMutationProps) => {
 		);
 	} catch (err) {
 		console.log(err);
-		
 	}
 };
